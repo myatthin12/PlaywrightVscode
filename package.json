@@ -1,0 +1,22 @@
+{
+  "name": "playwrightvscode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myatthin12/PlaywrightVscode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myatthin12/PlaywrightVscode/issues"
+  },
+  "homepage": "https://github.com/myatthin12/PlaywrightVscode#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  }
+}
