@@ -1,0 +1,1 @@
+document.querySelector('.thumbBox.imgLarge img')
