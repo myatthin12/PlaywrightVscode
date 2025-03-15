@@ -7,7 +7,7 @@ test('Animate Caravan',async({page})=>{
     await expect(homepagePic).toHaveScreenshot('Visual.png')
 })
 
-test.only('Div Animate Caravan',async({page})=>{
+test('Div Animate Caravan',async({page})=>{
     await page.goto('https://animate-caravan.loftal-dev.com');
     const divPic = page.locator('//*[@id="topAboutBox"]/div/div[1]')
     await expect(divPic).toHaveScreenshot('DivPic.png')
