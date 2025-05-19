@@ -12,3 +12,8 @@ test('Div Animate Caravan',async({page})=>{
     const divPic = page.locator('//*[@id="topAboutBox"]/div/div[1]')
     await expect(divPic).toHaveScreenshot('DivPic.png')
 })
+
+
+
+
+
